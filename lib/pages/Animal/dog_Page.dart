@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animal.dart';
+import 'animal_Page.dart';
 
 class dog extends StatefulWidget {
   const dog({super.key});

@@ -1,10 +1,10 @@
-import 'package:animalassigment/pages/Animal/cat.dart';
-import 'package:animalassigment/pages/Animal/dog.dart';
-import 'package:animalassigment/pages/Animal/elephant.dart';
-import 'package:animalassigment/pages/Animal/lion.dart';
-import 'package:animalassigment/pages/Animal/panda.dart';
-import 'package:animalassigment/pages/Animal/rabbit.dart';
-import 'package:animalassigment/pages/Animal/tiger.dart';
+import 'package:animalassigment/pages/Animal/cat_Page.dart';
+import 'package:animalassigment/pages/Animal/dog_Page.dart';
+import 'package:animalassigment/pages/Animal/elephant_Page.dart';
+import 'package:animalassigment/pages/Animal/lion_Page.dart';
+import 'package:animalassigment/pages/Animal/panda_Page.dart';
+import 'package:animalassigment/pages/Animal/rabbitPage.dart';
+import 'package:animalassigment/pages/Animal/tigerPage.dart';
 import 'package:animalassigment/pages/Screen/home_Screen.dart';
 import 'package:flutter/material.dart';
 

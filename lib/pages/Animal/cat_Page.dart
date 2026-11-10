@@ -1,4 +1,4 @@
-import 'package:animalassigment/pages/Animal/animal.dart';
+import 'package:animalassigment/pages/Animal/animal_Page.dart';
 import 'package:flutter/material.dart';
 
 class cat extends StatefulWidget {
