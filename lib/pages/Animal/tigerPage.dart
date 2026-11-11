@@ -13,14 +13,7 @@ class _tigerState extends State<tiger> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Tiger",
-          style: TextStyle(
-            color: Colors.green,
-            fontFamily: "EnglishTitle",
-            fontSize: 40,
-          ),
-        ),
+
       ),
       body: animal_common(
         animal_name: "Tiger",

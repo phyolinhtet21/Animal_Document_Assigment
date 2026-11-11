@@ -14,14 +14,7 @@ class _dogState extends State<dog> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Dog",
-          style: TextStyle(
-            color: Colors.green,
-            fontFamily: "EnglishTitle",
-            fontSize: 40,
-          ),
-        ),
+        backgroundColor: Colors.red,
       ),
       body: animal_common(
         animal_name: 'Dog',

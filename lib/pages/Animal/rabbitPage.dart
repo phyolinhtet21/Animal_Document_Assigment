@@ -13,14 +13,7 @@ class _rabitState extends State<rabit> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Rabbit",
-          style: TextStyle(
-            color: Colors.green,
-            fontFamily: "EnglishTitle",
-            fontSize: 40,
-          ),
-        ),
+
       ),
       body: animal_common(
         animal_name: "Rabbit",

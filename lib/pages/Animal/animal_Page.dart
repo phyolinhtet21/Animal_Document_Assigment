@@ -32,7 +32,19 @@ class _animal_commonState extends State<animal_common> {
         children: [
           Container(
             width: double.infinity,
-            height: 400,
+            margin: EdgeInsets.only(left: 50),
+            child: Text(
+              widget.animal_name,
+              style: TextStyle(
+                color: Colors.green,
+                fontSize: 40,
+                fontFamily: "EnglishTitle",
+              ),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 350,
 
             padding: EdgeInsets.all(50),
             color: Colors.white60,
@@ -112,8 +124,6 @@ class _animal_commonState extends State<animal_common> {
       ),
     );
   }
-
-
 
   _getButton(IconData icon, Color color, String text) {
     return ElevatedButton.icon(

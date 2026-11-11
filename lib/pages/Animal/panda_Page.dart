@@ -13,14 +13,7 @@ class _pandaState extends State<panda> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Panda",
-          style: TextStyle(
-            color: Colors.green,
-            fontFamily: "EnglishTitle",
-            fontSize: 40,
-          ),
-        ),
+
       ),
       body: animal_common(
         animal_name: "Panda",

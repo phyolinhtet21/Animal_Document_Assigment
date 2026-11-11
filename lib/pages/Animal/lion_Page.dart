@@ -13,14 +13,7 @@ class _lionState extends State<lion> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Lion",
-          style: TextStyle(
-            color: Colors.green,
-            fontFamily: "EnglishTitle",
-            fontSize: 40,
-          ),
-        ),
+
       ),
       body: animal_common(
         animal_name: "Lion",

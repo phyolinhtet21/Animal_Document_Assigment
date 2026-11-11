@@ -13,14 +13,6 @@ class _catState extends State<cat> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Cat",
-          style: TextStyle(
-            color: Colors.green,
-            fontFamily: "EnglishTitle",
-            fontSize: 40,
-          ),
-        ),
       ),
       body: animal_common(
         animal_name: 'cat',
