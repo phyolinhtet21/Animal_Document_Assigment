@@ -113,10 +113,12 @@ class _animal_commonState extends State<animal_common> {
     );
   }
 
+
+
   _getButton(IconData icon, Color color, String text) {
     return ElevatedButton.icon(
       onPressed: () {
-        Navigator.pushNamed(context, "/");
+        Navigator.pop(context, "/");
       },
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.white,
